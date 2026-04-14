@@ -1,0 +1,48 @@
+.info{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info-details{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.1rem;
+}
+
+.name{
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.title{
+  color: var(--accent);
+  font-size: 12.8px;
+}
+
+.url{
+  color: var(--text);
+  font-size: 10.24px;
+  text-decoration: none;
+}
+
+.button-section{
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  margin: 10px 0;
+}
+
+.button-section button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.linkedin--btn{
+  background: #5093E2;
+  color: white;
+}
