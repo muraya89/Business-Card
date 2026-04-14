@@ -1,0 +1,5 @@
+.app {
+  margin: 10px 0;
+  background: var(--code-bg);
+  border-radius: 10px;
+}

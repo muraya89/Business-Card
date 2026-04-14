@@ -7,12 +7,12 @@ import Footer from './components/Footer'
 function App() {
 
   return (
-    <>
+    <container className="app">
       <Info />
-      {/* <About />
+      <About />
       <Interests />
-      <Footer /> */}
-    </>
+      <Footer />
+    </container>
   )
 }
 
